@@ -1,0 +1,452 @@
+body {
+  background-color:#fff;
+  color: #000;
+  font-size: 16px;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.page {
+  /* width: 1180px; */
+  margin: 0 auto;
+  background-image: url(../images/AdobeStock_321759905.png);
+}
+
+header {
+  position: relative;
+}
+
+.top-nav {
+  /* width: 980px; */
+  /* margin: 0 auto; */
+  position: absolute;
+  border: 3px solid #3B982A;
+  background-color: rgba(221,255,227,0.8);
+  width: 245px;
+  height: 25px;
+  border-radius: 0 0 15px 15px;
+  border-top: none;
+  left: 1200px;
+}
+
+.top-nav p {
+  color: #707070;
+text-align: center;
+line-height: 1.5;
+text-decoration: none;
+margin-top: -2px;
+letter-spacing: 2.5px;
+}
+
+.top-nav p a {
+  text-decoration: none;
+}
+
+.top-color {
+  background-color:rgba(255,94,169,0.25);
+  height: 20px;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+header h1 {
+  background-color: rgba(255,94,94,0.1);
+}
+
+.top-logo {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.main-nav ul {
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.main-nav li {
+  width: 245px;
+  border-left: 3px dotted rgba(59,152,42,0.5);
+}
+
+.main-nav li:nth-child(4)  {
+  border-right: 3px dotted rgba(59,152,42,0.5);
+}
+
+#toppage .main-image {
+  width: 980px;
+  /* background-color: red; */
+  /* ↑ボーター線のせいかずれてしまうため、
+  正しくは980pxだけど一旦小さく記述している */
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#toppage .content main {
+  width: 735px;
+  height: 380px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+#gyoji .content main .gyoji-main {
+  width: 735px;
+  height: 2355px;;
+  background-color: rgba(255,94,94,0.08);
+  border-radius: 0 0 15px 15px;
+}
+
+#gyoji .main-midashi-2 {
+  background-color: rgba(255,94,94,0.2);
+  border-radius: 15px 15px 0 0;
+}
+
+/* ------------------------------------------------------------
+行事メイン
+------------------------------------------------------------ */
+.midashi-2 {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.main-midashi-2 {
+display: flex;
+}
+
+.main-midashi-2 h2 {
+  height: 50px;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+.main-midashi-2 img {
+  margin-left: 10px;
+}
+
+.gyoji-top h3 {
+  font-size: 20px;
+  color: #3B982A;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.gyoji-top {
+  overflow: hidden;
+}
+
+.gyoji-top p {
+  width: 685px;
+  margin-left: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #707070;
+}
+/* 行事1 */
+.gyoji-1 img{
+  margin-left: 15px;
+}
+
+.gyoji-1 h4 {
+  font-size: 20px;
+  color: #707070;
+  width: 520px;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: -60px;
+}
+
+.gyoji-1 figure {
+  margin-left: 10px;
+  margin-bottom: 120px;
+}
+
+/* 行事2 */
+.gyoji-2 img {
+  margin-left: 15px;
+}
+
+.gyoji-2 h4 {
+  font-size: 20px;
+  color: #707070;
+  width: 520px;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: -60px;
+}
+
+.gyoji-2 figure {
+  margin-left: 10px;
+  margin-bottom: 120px;
+}
+
+/* 行事3 */
+.gyoji-3 img {
+  margin-left: 15px;
+}
+
+.gyoji-3 h4 {
+  font-size: 20px;
+  color: #707070;
+  width: 520px;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: -60px;
+}
+
+.gyoji-3 figure {
+  margin-left: 10px;
+  margin-bottom: 120px;
+}
+
+/* 行事4 */
+.gyoji-4 img {
+  margin-left: 15px;
+}
+
+.gyoji-4 h4 {
+  font-size: 20px;
+  color: #707070;
+  width: 520px;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: -60px;
+}
+
+.gyoji-4 figure {
+  margin-left: 10px;
+  margin-bottom: 120px;
+}
+
+/* 行事5 */
+.gyoji-5 img {
+  margin-left: 15px;
+}
+
+.gyoji-5 h4 {
+  font-size: 20px;
+  color: #707070;
+  width: 520px;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: -60px;
+}
+
+.gyoji-5 figure {
+  margin-left: 10px;
+  margin-bottom: 60px;
+}
+
+/* パンくずリスト */
+.pankuzu p{
+  width: 120px;
+  /* background-color: red; */
+  text-align: left;
+}
+
+.pankuzu p a {
+  text-decoration: none;
+}
+
+.pan2 {
+  width: 860px;
+}
+
+.pankuzu {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pankuzu-ac a {
+  text-decoration: none;
+}
+
+.pankuzu-pan-2 {
+width: 860px;
+}
+
+.pankuzu-ac-p{
+  width: 120px;
+  /* background-color: red; */
+  text-align: left;
+}
+
+.pankuzu-ac {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+
+
+main .main-midashi h2 {
+  font-size: 30px;
+  color: #707070;
+  width: 545px;
+  text-align: center;
+  height: 95px;
+  line-height: 95px;
+  letter-spacing: 10px;
+}
+
+.sakura-right {
+  /* background-color: red; */
+}
+
+.main-midashi {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+#toppage main p {
+  width: 665px;
+  height: 380px;
+  color: #707070;
+  line-height: 1.5;
+  margin-left: 35px;
+  /* background-color: red; */
+}
+
+aside ul li {
+  /* background-color: red; */
+  display: flex;
+  margin-bottom: 10px;
+}
+
+aside li:last-child {
+  margin-bottom: 0;
+}
+
+.content {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+article img {
+  width: 980px;
+  /* display: block; */
+}
+
+article {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+
+article p {
+  width: 980px;
+  display: flex;
+  /* justify-content: center; */
+  position: absolute;
+  /* margin-left: 40px; */
+  /* top: 25px; */
+  /* left: 40px; */
+  height: 39.67px;
+  line-height: 39.67px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.footer-image {
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(255,94,94,0.1);
+  height: 140px;
+}
+
+.footer-line {
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+.footer-line .footer-image {
+  width: 980px;
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 40px; */
+  margin-bottom: 5px;
+  margin-bottom: -60px;
+  /* background-color: red; */
+}
+
+.footer-line small {
+  /* background-color: red; */
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+
+footer p img {
+  /* background-color: red; */
+  margin: 0 auto -40px auto;
+  display: block;
+  text-align: center;
+}
+
+footer small {
+  margin-bottom: 20px;
+}
+
+
+/* アクセスぺージ */
+.main-midashi-2 {
+  background-color: rgba(255,94,94,0.2);
+  border-radius: 15px 15px 0 0;
+  width: 735px;
+  /* margin-bottom: 20px; */
+}
+
+.map {
+  width: 735px;
+  height: 535px;
+  background-color: rgba(255,94,94,0.08);
+  margin-bottom: 30px;
+  border-radius: 0 0 15px 15px;
+}
+
+.map iframe {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.map img {
+  margin-left: 20px;
+}
+
+.anzen-map {
+  width: 735px;
+  height: 524px;
+  background-color: rgba(255,94,94,0.08);
+  border-radius: 0 0 15px 15px;
+}
+
+.anzen-map img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* .gyoji-1 figure{
+  background-image: url(../images/akaihane.jpg); */
+}
+
+.main-midashi-5 {
+  background-color: red;
+}
